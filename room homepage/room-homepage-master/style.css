@@ -1,0 +1,105 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.container-top{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    display: inline;
+    position: relative;
+}
+.text-overlay{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 60px;
+    display: flex;
+    gap:40px;
+    font-size: 18px;
+    color:white;
+    font-family: 'League Spartan';
+}
+.text-overlay img{
+    margin-right: 20px;
+}
+.text-overlay span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+.content{
+    width:450px;
+    display: block;
+    float: right;
+margin:75px;
+}
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'League Spartan';
+    text-align: center;
+}
+.content p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'League Spartan';   
+    color:hsl(0, 0%, 63%); 
+    text-align: justify;
+    line-height: 1.3;
+}
+.anchr{
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'League Spartan';   
+    color:black; 
+    text-align: justify;
+    letter-spacing: 10px;
+}
+.anchr:hover{
+    cursor: pointer;
+    color:hsl(0, 0%, 63%); 
+}
+.click-arrow{
+    display: flex;
+    flex-direction: row;
+    /* gap:0.5px; */
+    justify-content: center;
+    transform: translateX(181px);
+    margin-top: -78px;
+}
+button{
+    color:hsl(0, 0%, 63%);
+    font-weight: 500;
+    font-size: 40px;
+    background-color: black;
+    padding: 12px;
+    width:80px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 27%);
+}
+.container-bottom{
+    display: flex;
+}
+.fix-content{
+    width:505px;
+    padding: 37px;
+}
+.fix-content h1{
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'League Spartan';
+    text-align: justify;
+    letter-spacing: 8px;
+}
+.fix-content p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'League Spartan';   
+    color:hsl(0, 0%, 63%); 
+    text-align: justify;
+    line-height: 1.2;
+
+}
